@@ -1,0 +1,42 @@
+############################
+# Maven
+############################
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+############################
+# Spring Boot Logs
+############################
+*.log
+logs/
+
+############################
+# Application Config (DO NOT PUSH)
+############################
+src/main/resources/application.properties
+
+############################
+# Eclipse
+############################
+.project
+.classpath
+.settings/
+.metadata/
+
+############################
+# IntelliJ (if opened accidentally)
+############################
+.idea/
+*.iml
+
+############################
+# VS Code
+############################
+.vscode/
+
+############################
+# OS Files
+############################
+.DS_Store
+Thumbs.db
